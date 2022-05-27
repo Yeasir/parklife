@@ -1,0 +1,314 @@
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  footer{
+    text-align: center;
+    margin-top: -3px;
+    .custom-footer{
+      margin: 0 auto;
+    }
+    .single-image {
+      padding: 30px;
+      img {
+        width: 50%;
+        height: auto;
+      }
+
+    }
+    .single-link-content ul li a {
+      padding: 0 14px;
+      font-weight: 300;
+      font-size: 10px;
+      &:after{
+        display: none;
+      }
+    }
+
+  }
+
+  .branding .single-image {
+    padding: 30px 10px;
+    text-align: center;
+  }
+  .blog,.client,.contact{
+    .header-top{
+      background-size: 100% 100%;
+      h2{
+        font-size: 40px
+      }
+    }
+    .blog-robot {
+      display: none;
+    }
+    .brand-title {
+      background-size: 60%;
+    }
+  }
+
+  .contact .contact-title h2 {
+    font-size: 30px;
+  }
+  .contact .contact-title {
+    background-size: 99%;
+    padding: 20px 0;
+    font-size: 20px;
+  }
+  .client .single-image-client {
+    padding: 10px 0;
+    text-align: center;
+  }
+  .client .game {
+   display: none;
+  }
+  .client .virtual-boy {
+    display: none;
+  }
+  .client .client-title {
+    background-size: 95%;
+  }
+  .contact .custom-bg {
+    background-size: 49%;
+  }
+  .contact .custom-bg {
+    background-size: 100%;
+  }
+
+  .portfolio .dance {
+    display: none;
+  }
+  .portfolio .hunda {
+    display: none;
+  }
+  .portfolio .smile{
+    display: none;
+  }
+  .portfolio .child-doll{
+    display: none;
+  }
+  .portfolio .buddist-doll{
+    display: none;
+  }
+  .branding .brand-btm-bg img {
+    display: none;
+  }
+  footer .single-link-content ul li a {
+    padding: 0 0;
+    font-weight: 300;
+    font-size: 10px;
+  }
+  footer .single-link-content ul li::after {
+    content: '';
+    height: 10px;
+    width: 3px;
+    position: absolute;
+    top: 38%;
+    margin-left: 10px;
+
+
+  }
+
+  footer .single-link-content {
+    text-align: center;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+  footer{
+    text-align: center;
+    .custom-footer{
+      margin: 0 auto;
+    }
+    .single-image {
+      padding: 15px;
+      img {
+        width: 42%;
+        height: auto;
+      }
+
+    }
+  }
+
+  .blog .blog-robot {
+    position: absolute;
+    right: 22px;
+    top: 3%;
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 1s infinite alternate;
+  }
+  .blog .brand-title {
+    background-size: 40%;
+  }
+  .contact .contact-title h2 {
+    font-size: 30px;
+  }
+  .contact .contact-title {
+    background-size: 67%;
+    padding: 20px 0;
+  }
+  .client .single-image-client {
+    padding: 10px 0;
+    text-align: center;
+  }
+  .client .game {
+    right: 88px;
+    top: 55%;
+  }
+  .client .virtual-boy {
+    left: 11%;
+    top: 1%;
+
+  }
+  .client .client-title {
+    background-size: 54%;
+  }
+  .contact .custom-bg {
+    background-size: 49%;
+  }
+  .portfolio .child-doll {
+
+    left: 64%;
+    top: 89%;
+    z-index: 99999;
+  }
+  footer .single-link-content {
+
+    text-align: center;
+
+  }
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .contact .contact-title h2 {
+    font-size: 30px;
+  }
+  .blog .blog-robot {
+    right: 53px;
+    top: -13%;
+  }
+  .contact .berger-contact {
+    right: 0;
+    top: 4%;
+  }
+  .contact .contact-mouse {
+    left: 6%;
+    top: 2%;
+
+  }
+  .client .virtual-boy {
+    left: 3%;
+    top: 1%;
+
+  }
+  .client .game {
+    right: 30px;
+    top: 1%;
+  }
+  .client .client-title {
+    background-size: 42%;
+  }
+  .portfolio .hunda {
+    left: 6%;
+    top: 0%;
+
+  }
+  .portfolio .dance {
+
+    right: 3%;
+    top: -4%;
+  }
+  .portfolio .smile {
+    left: 6%;
+    top: 84%;
+  }
+  .portfolio .child-doll {
+
+    left: 65%;
+    top: 82%;
+    z-index: 99999;
+  }
+  .portfolio .buddist-doll {
+    right: 3%;
+    top: 82%;
+
+  }
+  footer {
+    text-align: center;
+  }
+  .contact .contact-head {
+    left: 9%;
+    top: 95%;
+    z-index: 1;
+  }
+  .contact .custom-bg {
+    background-size: 34%;
+  }
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .client .game {
+    right: 8px;
+    top: 1%;
+
+  }
+  .client .virtual-boy {
+    left: 3%;
+    top: 2%;
+  }
+  .blog .blog-robot {
+    right: 53px;
+    top: -16%;
+  }
+  .contact .contact-head {
+    left: 9%;
+    top: 96%;
+    z-index: 1;
+
+  }
+  .contact .berger-contact {
+    right: 0;
+    top: 6%;
+
+  }
+  .contact .contact-mouse {
+    left: 3%;
+    top: 3%;
+  }
+  .portfolio .smile {
+    left: 2%;
+    top: 72%;
+
+  }
+  .portfolio .buddist-doll {
+    right: 2%;
+    top: 72%;
+
+  }
+  .portfolio .child-doll {
+    left: 61%;
+    top: 73%;
+
+  }
+  footer .single-link-content ul li {
+    position: relative;
+    padding: 0 8px;
+  }
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .client .virtual-boy {
+    left: 3%;
+    top: 2%;
+  }
+  .client .game {
+    right: 8px;
+    top: 65%;
+  }
+
+
+}

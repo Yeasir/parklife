@@ -1,0 +1,385 @@
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 1140px !important;
+    margin:10px auto!important;
+  }
+}
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+
+  .header {
+    background-position: center center;
+    background-size: 170% 100%;
+    min-height: auto;
+    padding: 20px 0;
+  }
+  .logo-img {
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+  .logo-text {
+    top: 50%;
+    text-align: center;
+    position: absolute;
+    width: 90%;
+    height: auto !important;
+  }
+  .caption-icon {
+    width: 44%;
+    margin: 0 auto;
+  }
+
+  .wegan .jupiter {
+    position: absolute;
+    left: 25%;
+    top: 78%;
+  }
+
+  .overlay ul li a {
+    font-size: 32px;
+  }
+
+  .video .header-top h2{
+  font-size: 34px;
+  }
+  .about .project .single-project{
+    background-size: auto;
+    margin-bottom: 30px;
+  }
+  .service{
+    padding: 100px 0;
+    margin-top: -3px;
+    .header-top{
+      background-size: 100% 100%;
+      h2{
+        font-size: 40px
+      }
+    }
+    &::before {
+      bottom: 99%;
+    }
+
+    .single_service_area {
+      .single-service {
+        background-size: auto;
+        min-height: 513px;
+      }
+      .top-head,.single-img{
+        padding-top: 36px;
+      }
+      .single-service2 .top-head h4 {
+        font-size: $font-size-base;
+      }
+    }
+
+    .glass {
+      position: absolute;
+      left: 5%;
+      top: 12%;
+    }
+    .pyramid {
+      position: absolute;
+      right: 4%;
+      top: 28%;
+    }
+    .server {
+      position: absolute;
+      left: 6%;
+      top: 50%;
+    }
+    .supper_maria {
+      display: none;
+    }
+    .jupiter_icon {
+      position: absolute;
+      left: 0%;
+      top: 70%;
+    }
+    .death_icon {
+      position: absolute;
+      right: 2%;
+      top: 74%;
+    }
+
+  }
+
+  .wegan{
+
+    .dragon{
+      position: absolute;
+      right: 10%;
+      top: 3%;
+      -webkit-animation: mike-rotate 5s 5s ease-out forwards,
+      mike-flt 2.2s infinite;
+    }
+
+    .mask{
+      position: absolute;
+      left: 0;
+      top: 60%;
+      -webkit-animation: mover 1s infinite  alternate;
+      animation: mover 1s infinite  alternate;
+    }
+    .pizza{
+      position: absolute;
+      left: 7%;
+      top: 45%;
+      -webkit-animation: mover 1s infinite  alternate;
+      animation: mover 1s infinite  alternate;
+    }
+    .hoaker{
+      position: absolute;
+      left: 15%;
+      top: 45%;
+      -webkit-animation: rock-boat 6s ease-in-out infinite;
+    }
+
+    .jupiter{
+      position: absolute;
+      left: 28%;
+      top: 72%;
+      -webkit-animation: rock-boat 6s ease-in-out infinite;
+    }
+
+    .mouse, .doll,.phonebox,.hand,.hoaker,.pizza,.keyboard, .robot, .french_fries,.humburger{
+     display: none;
+    }
+
+
+    .car{
+      position: absolute;
+      right: 0;
+      top: 58%;
+      -webkit-animation: mover 1s infinite  alternate;
+      animation: mover 1s infinite  alternate;
+    }
+  }
+
+  .about{
+    .header-top{
+      background-size: 100% 100%;
+      h2{
+        font-size: 40px
+      }
+    }
+    .earth {
+      right: 6%;
+    }
+    .server {
+      position: absolute;
+      left: 8%;
+      top: 1%;
+    }
+  }
+  .video {
+    .oldman{
+      display: none;
+    }
+  }
+
+  #video-player {
+    width: 84%;
+    height: 55%;
+    top: 105px;
+    left: 5px;
+    right: 0;
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+  }
+  .video__button {
+    width: 100px;
+    height: 100px;
+    top: 45%;
+  }
+
+  .reviews{
+    margin-top: -3px;
+    .phone {
+      position: absolute;
+      left: 6%;
+      top: 11%;
+    }
+    .header-top{
+      background-size: 100% 100%;
+      h2{
+        font-size: 40px
+      }
+    }
+  }
+  .portfolio{
+    margin-top: -3px;
+    .header-top{
+      background-size: 100% 100%;
+      h2{
+        font-size: 40px
+      }
+    }
+  }
+  .headerMenu__telephone {
+    font-size: 20px;
+  }
+  .overlay ul li {
+    display: block;
+    height: calc(100% / 16);
+    min-height: 50px;
+    position: relative;
+    opacity: 0;
+  }
+  .about-more {
+    .header-top {
+      background-size: auto;
+      h2{
+        font-size: 26px;
+        padding-bottom: 20px;
+      }
+    }
+    .content-box{
+      text-align: center;
+    }
+  }
+  .about-more .about-content-box{
+    padding: 5px 15px;
+  }
+
+    .close{
+    color: white;
+    padding-top: 15px !important;
+    display: block;
+  }
+}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .header {
+    background-position: center top;
+    background-size: 140% 100%;
+    min-height: auto;
+    padding: 20px 0;
+  }
+
+  .about .project .single-project {
+    background-size: auto;
+    margin-bottom: 30px;
+  }
+  .service {
+    padding: 100px 0;
+    &::before {
+      bottom: 99%;
+    }
+
+    .single_service_area {
+      .single-service {
+        background-size: auto;
+        min-height: 513px;
+      }
+      .top-head, .single-img {
+        padding-top: 36px;
+      }
+      .single-service2 .top-head h4 {
+        font-size: $font-size-base;
+      }
+    }
+  }
+  .wegan {
+    .robot {
+      left: 23%;
+    }
+    .keyboard {
+      display: none;
+    }
+    .hoaker {
+      left: 15%;
+      top: 66%;
+    }
+    .hand {
+      display: none;
+    }
+    .mouse {
+      position: absolute;
+      left: 28%;
+      top: 76%;
+    }
+    .phonebox {
+      right: 1%;
+      top: 31%;
+    }
+    .doll {
+
+      right: 15%;
+      top: 57%;
+    }
+
+  }
+  .close{
+    color: white;
+    padding-top: 15px !important;
+    display: block;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .header {
+    background-position: center top;
+    background-size: cover;
+    min-height: auto;
+  }
+
+  .about .project .single-project{
+    background-size: auto;
+    margin-bottom: 30px;
+  }
+  .about .project .single-project .single-img {
+    padding-top: 96px;
+    padding-left: 23px;
+    padding-right: 24px;
+  }
+  #video-player {
+    width: 86%;
+    height: 65%;
+    top: 113px;
+    left: 11px;
+    right: 0;
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+  }
+  .close{
+    color: white;
+    padding-top: 15px !important;
+    display: block;
+  }
+
+}
+
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .header {
+    background-position: center top;
+    background-size: cover;
+    min-height: auto;
+  }
+    .about .project .single-project .single-img {
+    padding-top: 96px;
+  }
+  .service .single_service_area .single-service .list-group li{
+    font-size: $font-size-base+(-2);
+  }
+
+  .service .single_service_area .serice_btn .custom-btn{
+    font-size: $font-size-base+(-2);
+  }
+  .close{
+    color: white;
+    padding-top: 15px !important;
+    display: block;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}
